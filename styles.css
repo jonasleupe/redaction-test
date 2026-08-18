@@ -28,11 +28,7 @@
 html { color-scheme: dark; }
 body {
   margin: 0;
-  background:
-    linear-gradient(var(--line) 1px, transparent 1px) 0 0 / 100% 4.5rem,
-    radial-gradient(circle, color-mix(in oklab, var(--ink-faint) 22%, transparent) 0.6px, transparent 0.7px) 0 0 / 18px 18px,
-    var(--surface);
-  background-attachment: fixed;
+  background: var(--surface);
   color: var(--ink);
   font-family: var(--sans);
   font-weight: 400;
