@@ -214,7 +214,18 @@ a:hover { color: oklch(85.2% 0.1324 163.7); }
   font-size: 11px;
   margin-right: 0.7em;
 }
-.score-cell { text-align: center; }
+.score-cell {
+  text-align: center;
+  vertical-align: middle;
+}
+.score-time {
+  display: block;
+  font-family: var(--mono);
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  color: var(--ink-faint);
+  margin-top: 0.35rem;
+}
 
 .stamp {
   display: inline-flex;
