@@ -1,7 +1,9 @@
 __pycache__/
 *.pyc
 run_mlx.py
+run_ox_alpha.py
 build_html.py
 original.json
 mlx_results.jsonl
+ox_alpha_results.jsonl
 redaction-test-mlx.html

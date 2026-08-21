@@ -238,6 +238,14 @@ a:hover { color: var(--open); }
 }
 .card-body h3:first-child { margin-top: 0; }
 .card-body ul, .card-body ol { margin: 0 0 0.75em; padding-left: 1.15em; }
+.card-reasoning {
+  margin-top: 1.15rem;
+  padding-top: 1rem;
+  border-top: 1px dashed var(--line);
+  color: var(--muted);
+}
+.card-reasoning h3 { margin-top: 0; }
+.card-new .card-model { color: var(--ink); }
 
 .methodology {
   margin-top: 4rem;
